@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ToDo.css">
+    <title>To Do</title>
+</head>
+<body>
+    <header>
+        <h1>To Do List</h1>
+    </header>
+
+    <div class="yazi">
+        <input id="todo" type="text" placeholder="Name...">
+        <button onclick="add()" type="submit">Add Item</button>
+
+    </div>
+
+
+    <div class="liste" >
+        <ul id="liste">
+
+        </ul>
+
+    </div>
+
+    <button class="rst" onclick="clr()">Clear All</button>
+
+    <script src="./ToDo.js"></script>
+</body>
+</html>
